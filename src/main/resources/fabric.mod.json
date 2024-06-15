@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/project/cvmtech",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/iamgabrieltv/CvmTech-Mod"
 	},
 	"license": "MIT",
 	"icon": "assets/cvmtech-mod/icon.png",
@@ -17,13 +17,13 @@
 	"entrypoints": {
 		"main": [
 			{
-				"value": "gabriel.test.TemplateMod",
+				"value": "iamgabrieltv.cvmtech.Main",
 				"adapter": "kotlin"
 			}
 		],
 		"client": [
 			{
-				"value": "gabriel.test.TemplateModClient",
+				"value": "iamgabrieltv.cvmtech.MainClient",
 				"adapter": "kotlin"
 			}
 		]

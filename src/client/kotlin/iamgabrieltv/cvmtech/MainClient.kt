@@ -1,8 +1,8 @@
-package gabriel.test
+package iamgabrieltv.cvmtech
 
 import net.fabricmc.api.ClientModInitializer
 
-object TemplateModClient : ClientModInitializer {
+object MainClient : ClientModInitializer {
 	override fun onInitializeClient() {
 		// This entrypoint is suitable for setting up client-specific logic, such as rendering.
 	}

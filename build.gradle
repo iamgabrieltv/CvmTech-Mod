@@ -23,7 +23,7 @@ loom {
     splitEnvironmentSourceSets()
 
 	mods {
-		"template-mod" {
+		"cvmtech" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

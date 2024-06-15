@@ -1,4 +1,4 @@
-package gabriel.test.mixin;
+package iamgabrieltv.cvmtech.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,4 +1,4 @@
-package gabriel.test
+package iamgabrieltv.cvmtech
 
 import net.fabricmc.api.ModInitializer
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup
@@ -11,8 +11,8 @@ import net.minecraft.text.Text
 import net.minecraft.util.Identifier
 import org.slf4j.LoggerFactory
 
-object TemplateMod : ModInitializer {
-    private val logger = LoggerFactory.getLogger("template-mod")
+object Main : ModInitializer {
+    private val logger = LoggerFactory.getLogger("CvmTech")
 
 	// instance of new item
 	private val cvmphone_18 = Cvmphone_18(Item.Settings().maxCount(1))
