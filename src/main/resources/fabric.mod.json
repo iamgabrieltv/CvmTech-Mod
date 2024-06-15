@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "cvmtech-mod",
+	"version": "${version}",
+	"name": "CvmTech",
+	"description": "Brings the tech from the floptropican company CvmTech to your game",
+	"authors": [
+		"IamGabrielTV"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/cvmtech",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cvmtech-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "gabriel.test.TemplateMod",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "gabriel.test.TemplateModClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"template-mod.mixins.json",
+		{
+			"config": "template-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
